@@ -1,8 +1,8 @@
 Description: Test demoing VIVIDUS capabilities for REST API    How to run:    ./gradlew runStories -Pvividus.configuration.suites=rest_api   Useful docs:  https://docs.vividus.dev/vividus/latest/plugins/plugin-rest-api.html#_dynamic_variables
 
 
-Scenario: First scenario
-Given I initialize scenario variable `base-url` with value `http://localhost:8080/api`
+Scenario: Base-url setting
+Given I initialize story variable `base-url` with value `http://localhost:8080/api`
 
 Scenario: 1. Get all products
 When I execute HTTP GET request for resource with URL `${base-url}/products`
