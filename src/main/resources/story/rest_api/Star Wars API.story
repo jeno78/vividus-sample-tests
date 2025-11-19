@@ -1,4 +1,4 @@
-Description: Test demoing VIVIDUS capabilities for REST API    How to run:    ./gradlew runStories -Pvividus.configuration.suites=rest_api
+Description: Test demoing VIVIDUS capabilities for REST API    How to run:    ./gradlew runStories -Pvividus.configuration.suites=rest_api   Useful docs:  https://docs.vividus.dev/vividus/latest/plugins/plugin-rest-api.html#_dynamic_variables
 
 
 Scenario: 1. Get all products
